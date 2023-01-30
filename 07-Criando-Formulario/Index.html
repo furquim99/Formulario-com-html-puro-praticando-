@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextArea</title>
+</head>
+<body>
+    <h1>Formulario de inscrição</h1>
+    <h2>Coloque suas informações aqui</h2>
+    <form method="get" action="Index.html" enctype="multipart/form-data">
+        <label for="text">Nome</label>
+        <input type="text" name="nome" value="" id="nome" placeholder="Digite seu Nome aqui!" required>
+        <br>
+        <label for="text">SobreNome</label>
+        <input type="text" name="Nobrenome" value="" id="sobrenome" placeholder="Digite seu Sobrenome aqui!" required>
+        <br>
+        <label for="idade">Idade</label>
+        <input type="number" name="idade" value=""  id="idade" placeholder="Digite sua idade aqui!" required>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Digite aqui o seu email" required>
+        <br>
+        <label for="email">Senha</label>
+        <input type="password" name="senha" id="senha" placeholder="Digite aqui uma senha" required>
+        <br>
+        <label for="radio">Genero</label>
+        <br>
+        <input type="radio" name="genero" value="feminino"  id="feminino" placeholder="Feminino">
+        <label for="feminino">Feminino</label>
+        <input type="radio" name="genero" value="masculino"  id="masculino" placeholder="Masculino">
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" value="nao-generio"  id="nao-generio" placeholder="Não quero dizer o meu genero">
+        <label for="nao-generio">Não quero dizer o meu genero</label>
+        <br>
+        <label for="cidade">Estado</label>
+        <select name="estados" id="estados">
+            <option value="" selected>Selecione um estado</option>
+            <option value="Rio de janeito">Rio de janeito</option>
+            <option value="São Paulo">São Paulo</option>
+            <option value="Minas Gerais">Minas Gerais</option>
+            <option value="Ceara">Ceara</option>
+            <option value="Piaui">Piaui</option>
+            <option value="Acre">Acre</option>
+            <option value="Bahia">Bahia</option>
+        </select>
+        <br>
+        <label for="cidade">Conte-nos a sua historia</label>
+        <textarea name="texto" cols="20" rows="10">
+    
+        </textarea>
+        <br>
+        <button>Enviar</button>
+        <br>
+        <input type="file" name="" id="">
+        <br>
+    </form>
+</body>
+</html>
